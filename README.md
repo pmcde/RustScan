@@ -233,3 +233,5 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 [badge-4]: https://img.shields.io/crates/d/rustscan?label=Cargo%20Downloads
 [badge-5]: https://img.shields.io/discord/754001738184392704
 [badge-6]: https://github.com/RustScan/RustScan/actions/workflows/build.yml/badge.svg?branch=master
+
+Testing
