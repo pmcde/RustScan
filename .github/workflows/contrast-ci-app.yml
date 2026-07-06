@@ -1,7 +1,7 @@
 # DISCLAIMER: This workflow file has been auto-generated and committed to the repo by the GitHub App from Contrast Security.
 # Manual edits to this file could cause the integration to produce unexpected behavior or break the integration.
 # Version: 1.0.1
-# Last updated: 2026-06-02T13:02:13.334665518Z
+# Last updated: 2026-07-06T13:15:07.371561750Z
 name: Contrast CI
 
 on:
@@ -82,9 +82,9 @@ jobs:
 
       # -------------------------------------------------------
       # Contrast Code Config (manual optional overrides)
-      # Configure GitHub org level or repo level env var to extend or shorten the default triage duration of 1 minute
+      # Configure GitHub org level or repo level env var to extend or shorten the default triage duration of 10 minutes
       # -------------------------------------------------------
-      triage_duration: ${{ vars.CONTRAST_CI_TRIAGE_DURATION || '1m' }}
+      triage_duration: ${{ vars.CONTRAST_CI_TRIAGE_DURATION || '10m' }}
 
       # -------------------------------------------------------
       # LLM CONFIG
